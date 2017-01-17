@@ -1,0 +1,300 @@
+
+img,input,div{
+    border: 0;
+}
+h2{
+    height: 80px;
+    line-height: 80px;
+    display: block;
+    text-align: center;
+    position: relative;
+    font-family: 微软雅黑;
+}
+h2 i{
+    width: 100%;
+    height: 1px;
+    background-color: #dcdcdc;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    overflow: hidden;
+}
+h2 strong{
+    display: inline-block;
+    background-color: #fafafa;
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    color: #333;
+    padding: 0 10px;
+
+
+}
+
+#content{
+    padding-top: 80px;
+    width: 100%;
+    height: 2028px;
+    background-color: #fafafa;
+    z-index: 5;
+    position: relative;
+    margin-bottom: 350px;
+}
+
+.box{
+    width: 1100px;
+    height: 2028px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#list-show{
+    height:667px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+#list-show .list-show-left{
+    height: 667px;
+    width: 714px;
+    float: left;
+    overflow: hidden;
+}
+#list-show .all-top{
+    height: 332px;
+    width: 718px;
+    position: relative;
+    overflow: hidden;
+    background-color: #46afe6;
+}
+#list-show .list-show-left .all-top img{
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+#list-show .list-show-left .all-top span{
+    width: 230px;
+    height: 30px;
+    position: absolute;
+    background: url("../img/x7-promos-title.jpg") no-repeat;
+    background-size: 230px 30px;
+    right: 50px;
+    top: 150px;
+    cursor: pointer;
+}
+.all-bottom{
+    height: 333px;
+    width: 717px;
+    margin-top: 1px;
+}
+#list-show .all-bottom .list-show-ll{
+    height: 332px;
+    width: 357px;
+    float: left;
+    background-size: 250px 320px;
+    background-color: #ff97b7;
+    position: relative;
+    overflow: hidden;
+}
+#list-show .all-bottom .list-show-ll img{
+    position: absolute;
+    top:30px;
+    right: 25px;
+}
+#list-show .all-bottom .list-show-ll span{
+    width: 80px;
+    height: 18px;
+    position: absolute;
+    background: url("")no-repeat;
+    background-size: 80px 18px;
+    left: 20px;
+    bottom: 20px;
+}
+#list-show .all-bottom .list-show-lr{
+    height: 332px;
+    width: 356px;
+    float: left;
+    margin-left: 1px;
+    background-color: #ffd25b;
+    position: relative;
+    overflow: hidden;
+}
+#list-show .all-bottom .list-show-lr img {
+    position: absolute;
+    top:0px;
+    left: 26px;
+}
+#list-show .all-bottom .list-show-lr span{
+    width: 150px;
+    height: 18px;
+    position: absolute;
+    background-image: url("../img/promos-v3-title.jpg");
+    background-size: 150px 18px;
+    left: 20px;
+    bottom: 20px;
+}
+#list-show .list-show-right{
+    height: 665px;
+    width: 385px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+#list-show .list-show-right img{
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+#list-show .list-show-right span{
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    background: url("../img/promos-br-title.jpg")no-repeat;
+    background-size:180px 50px;
+    left: 100px;
+    top: 50px;
+}
+#all-list{
+    overflow: hidden;
+    position: relative;
+    width: 1099px;
+    height: 1053px;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    border-bottom: 0px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+#all-list ul{
+    width: 1104px;
+    height: 1044px;
+    display: block;
+}
+#all-list ul li{
+    position: relative;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    width: 274px;
+    height: 350px;
+    overflow: hidden;
+}
+#all-list ul li a{
+    transition: all .3s ease-in-out;
+    display: block;
+    padding-top: 20px;
+}
+#all-list ul li a .figure{
+    height: 248px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+#all-list ul li a .figure img{
+    width: 248px;
+    height: 248px;
+    z-index: 1;
+}
+#all-list ul li a h3{
+    font-size: 18px;
+    color: #333;
+    padding: 5px 30px;
+    text-align: center;
+}
+#all-list ul li a i{
+    transition: all .3s;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 9;
+    border: 1px solid #fff;
+}
+#all-list ul li a:hover i{
+    border: 5px solid #f2f9fd;
+}
+#nav-number{
+    padding-top: 40px;
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+#nav-number ul{
+    display: inline-block;
+    width: 315px;
+    height: 31px;
+    vertical-align: middle;
+    /*padding-top: 8px;*/
+    /*margin: 0 auto;*/
+}
+#nav-number ul li{
+    float: left;
+    height: 31px;
+    width: 31px;
+}
+#nav-number ul li a{
+    display: block;
+    height: 31px;
+     width: 31px;
+    line-height: 31px ;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    /*font-family: 微软雅黑;*/
+}
+#nav-number ul li a:hover{
+    color: #008cd6;
+}
+
+#nav-number ul .next-page{
+    margin-left: 5px;
+    background: url(../img/vivo_l_pages-ico.png) -32px 0;
+}
+#nav-number ul .next-page:hover{
+    background: url(../img/vivo_l_pages-ico.png) -32px -32px;
+}
+#nav-number .GO{
+    padding-left: 20px;
+    display: inline-block;
+    /*font-family: 微软雅黑;*/
+    vertical-align: middle;
+    text-align: center;
+}
+#nav-number .GO input{
+    width: 30px;
+    height: 36px;
+    padding: 0 5px;
+    color: #666;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 36px;
+    font-size: 18px;
+    position: relative;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px rgba(0,140,214,0),0 1px 2px rgba(0,0,0,.1) inset;
+}
+#nav-number .GO span{
+    vertical-align: middle;
+    padding: 0 5px;
+    font-size: 20px;
+    text-align: center;
+    /*margin: 0 5px;*/
+}
+#nav-number .GO a{
+    font-family: 微软雅黑;
+    display: inline-block;
+    height: 31px;
+    width: 31px;
+    font-size: 12px;
+    color: #fff;
+    border-radius:15px ;
+    text-align: center;
+    line-height: 31px;
+    background-color: #008cd6;
+}
