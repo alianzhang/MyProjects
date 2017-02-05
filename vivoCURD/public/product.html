@@ -7,49 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
 		<link rel="stylesheet" type="text/css" href="css/product.css" />
-		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
-		<script>
-			$(function() {
-				$(" #all1 ").mouseenter(function() {
-					$(this).children("img").stop().animate({
-						"top": "-20px"
-					}, 1500);
-				});
-				$(" #all1 ").mouseleave(function() {
-					$(this).children("img").stop().animate({
-						"top": "0px"
-					}, 800);
-				});
-				$(" #all2 ").mouseenter(function() {
-					$(this).children("img").stop().animate({
-						"top": "-40px"
-					}, 1600);
-				});
-				$(" #all2 ").mouseleave(function() {
-					$(this).children("img").stop().animate({
-						"top": "0px"
-					}, 800);
-				});
-				$(" #all4 ").mouseenter(function() {
-					$(this).children("img").stop().animate({
-						"left": "0px"
-					}, 1500);
-				});
-				$(" #all4 ").mouseleave(function() {
-					$(this).children("img").stop().animate({
-						"left": "26px"
-					}, 1000);
-				});
-				
-				$("#vivo-gotop").click(function(){
-						$('body,html').animate({scrollTop:0},1000);  
-			                return false; 
-					})
-
-				
-			});
-		</script>
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 	</head>
 	<!--开始-->
 
@@ -100,8 +58,9 @@
 						</a>
 					</div>
 				</div>
-				<!--公共头部开始-->
+				<!--公共头部结束-->
 			</div>
+			<!-- 二级遮罩菜单 -->
 			<div class="vivo-menu-series" id="series">
 				<div class="vms-bigbox">
 					<div class="vms-box c1">
@@ -196,16 +155,14 @@
 
 			<!--公共头部通栏结束-->
 
-			<!--搜索遮罩层部分-->
 			
-
-			<!--------------------------------------中间主体部分开始------------------------------------------------------->
+			<!-- 中间主体部分开始 -->
 			<div id="content">
 
 				<div class="box">
-					<!--------------------------我是坚挺的分割线------------------------->
+					<!-- 我是坚挺的分割线 -->
 					<h2><i></i><strong>推荐产品</strong></h2>
-					<!--------------------------推荐产品-------------------------------->
+					<!-- 推荐产品 -->
 					<div id="list-show">
 						<div class="list-show-left">
 							<div class="all-top" id="all1">
@@ -228,116 +185,30 @@
 							<span></span>
 						</div>
 					</div>
-					<!--------------------------我是坚挺的分割线------------------------->
 					<h2><i></i><strong>全部产品</strong></h2>
-					<!---------------------------全部产品------------------------------->
+					<!-- 全部产品 -->
 					<div id="all-list">
-						<ul>
-							<li>
-								<a href="javascript:">
-									<div class="figure"><img src="img/phone1.png" alt="" /></div>
-									<h3>X7</h3><i></i> </a>
-							</li>
-							<li>
-								<a href="javascript:">
-									<div class="figure"><img src="img/phone2.png" alt="" /></div>
-									<h3>X7Plus</h3><i></i> </a>
-							</li>
-							<li>
-								<a href="javascript:">
-									<div class="figure"><img src="img/phone3.png" alt="" /></div>
-									<h3>Y51电信高配版</h3><i></i> </a>
-							</li>
-							<li>
-								<a href="javascript:">
-									<div class="figure"><img src="img/phone4.png" alt="" /></div>
-									<h3>X7移动版</h3><i></i> </a>
-							</li>
-							<li>
-								<a href="javascript:">
-									<div class="figure"><img src="img/phone5.png" alt="" /></div>
-									<h3>X7Plus移动版</h3><i></i> </a>
-							</li>
-							<li>
-								<a href="javascript:">
-									<div class="figure"><img src="img/phone6.png" alt="" /></div>
-									<h3>Xplay5旗舰版</h3><i></i> </a>
-							</li>
-							<li>
-								<a href="javascript:">
-									<div class="figure"><img src="img/phone7.png" alt="" /></div>
-									<h3>Xplay5</h3><i></i> </a>
-							</li>
-							<li>
-								<a href="javascript:">
-									<div class="figure"><img src="img/phone8.png" alt="" /></div>
-									<h3>Y51移动定制版</h3><i></i> </a>
-							</li>
-							<li>
-								<a href="javascript:">
-									<div class="figure"><img src="img/phone9.png" alt="" /></div>
-									<h3>Y51全网通高配版</h3><i></i> </a>
-							</li>
-							<li>
-								<a href="javascript:">
-									<div class="figure"><img src="img/phone10.png" alt="" /></div>
-									<h3>V3全网通</h3><i></i> </a>
-							</li>
-							<li>
-								<a href="javascript:">
-									<div class="figure"><img src="img/phone11.png" alt="" /></div>
-									<h3>V3MAX全网通</h3><i></i> </a>
-							</li>
-							<li>
-								<a href="javascript:">
-									<div class="figure"><img src="img/phone12.png" alt="" /></div>
-									<h3>X6S Plus移动版</h3><i></i></a>
-							</li>
+						<ul id="product-show">
+							
 						</ul>
 					</div>
-					<!---------------------------分页------------------------------->
-					<div id="nav-number">
-						<ul>
-							<li>
-								<a href="javascript:" style="color: #008cd6">1</a>
-							</li>
-							<li>
-								<a href="javascript:">2</a>
-							</li>
-							<li>
-								<a href="javascript:">3</a>
-							</li>
-							<li>
-								<a href="javascript:">4</a>
-							</li>
-							<li>
-								<a href="javascript:">5</a>
-							</li>
-							<li>
-								<a href="javascript:">6</a>
-							</li>
-							<li>
-								<a href="javascript:">7</a>
-							</li>
-							<li>
-								<a href="javascript:">8</a>
-							</li>
-							<li>
-								<a href="javascript:">9</a>
-							</li>
-							<li class="next-page">
-								<a href="javascript:"></a>
-							</li>
-						</ul>
-						<div class="GO">
-							<input type="text" value="1" />
-							<span>/ 9</span>
-							<a href="" target="_self">GO</a>
-						</div>
-					</div>
+					<!-- 分页 -->
+					<nav>
+            			<nav>
+            		    <ul class="pagination">
+            		        <li class="disabled"><a href="#">&laquo;</a></li>
+            		        <li class="active"><a href="#">1</a></li>
+            		        <li><a href="#">2</a></li>
+            		        <li><a href="#">3</a></li>
+            		        <li><a href="#">4</a></li>
+            		        <li><a href="#">5</a></li>
+            		        <li><a href="#">&raquo;</a></li>
+            		    </ul>
+            			</nav>
+        			</nav>
 				</div>
 			</div>
-			<!--------------------------------------中间主体部分结束------------------------------------------------------->
+			<!-- 中间主体部分结束 -->
 
 			<!--公共footer开始-->
 			<div id="d" style="background-color: #008cd6; position: relative;visibility: visible;">
@@ -399,44 +270,14 @@
 		<script>
 		</script>
 		<!--公共footer结束-->
-		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/animate.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/product.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript">
-			$(function() {
-				//设置产品显示隐藏
-
-				$("#product").mouseenter(function(){
-					$("#series").stop().animate({
-						"opacity":"1",
-					},800)
-					$("#series").addClass("show");
-				})
-				$("#product").mouseleave(function(){
-					$("#series").stop().animate({
-						"opacity":"0",
-					},800,function(){
-						$("#series").removeClass("show");
-					})
-				})
-				
-				
-				$("#series").mouseenter(function(){
-					$("#series").stop().animate({
-						"opacity":"1",
-					},800)
-					$("#series").addClass("show");
-				})
-				$("#series").mouseleave(function(){
-					$("#series").stop().animate({
-						"opacity":"0",
-					},800,function(){
-						$("#series").removeClass("show");
-					})
-				})
-
-			})
-		</script>
+		
 	</body>
-
+	<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script src="assets/js/product.js"></script>
+	<script src="js/footer.js"></script>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/animate.js" type="text/javascript" charset="utf-8"></script>
+	<!-- 引入分页按钮插件 -->
+	<script src="node_modules/twbs-pagination/jquery.twbsPagination.js"></script>
 </html>

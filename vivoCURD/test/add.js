@@ -7,7 +7,7 @@ const data = [
  realName : 'X7',
  stageName: 'X7',
  birth    : '￥2799',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone1.png',
  works    : '20000',
  summary  : `X7&X7Plus搭载第七代A72架构CPU高通骁龙8976，八核1.8Ghz。性能强劲。配合4G超大运存和强大的Adreno510 GPU，带来更出色的流畅操作和游戏视频体验。
      分屏多任务全面升级，视频或游戏时来微信只需轻轻一点，立刻分屏回复消息，生活工作两不误。更加入主动分屏，在你看视频、电子书甚至玩游戏等情况下，只需要三指下滑，即可分屏主动开启微信、QQ等即时通讯应用。`
@@ -16,7 +16,7 @@ const data = [
  realName : 'Xshot',
  stageName: 'Xshot',
  birth    : '￥7299',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone2.png',
  works    : '50000',
  summary  : `采用3000mAh（典型容量）超高密度大容量电池，全新智慧引擎2.0，同时采用同步心跳、电量护卫等省电技术，优质续航让您的工作和生活尽享电力充沛。
      分屏多任务全面升级，视频或游戏时来微信只需轻轻一点，立刻分屏回复消息，生活工作两不误。更加入主动分屏，在你看视频、电子书甚至玩游戏等情况下，只需要三指下滑，即可分屏主动开启微信、QQ等即时通讯应用。`
@@ -25,7 +25,7 @@ const data = [
  realName : 'Xplay6',
  stageName: 'Xplay6',
  birth    : '￥4299',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone3.png',
  works    : '500000',
  summary  : `X7&X7Plus搭载第七代A72架构CPU高通骁龙8976，八核1.8Ghz。性能强劲。配合4G超大运存和强大的Adreno510 GPU，带来更出色的流畅操作和游戏视频体验。
      分屏多任务全面升级，视频或游戏时来微信只需轻轻一点，立刻分屏回复消息，生活工作两不误。更加入主动分屏，在你看视频、电子书甚至玩游戏等情况下，只需要三指下滑，即可分屏主动开启微信、QQ等即时通讯应用。`
@@ -34,7 +34,7 @@ const data = [
  realName : 'Xplay5旗舰版',
  stageName: 'Xplay5旗舰版',
  birth    : '￥4999',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone4.png',
  works    : '500700',
  summary  : `前置500W高清摄像头， 全新升级知性美颜及人脸识别技术，量身定制美颜。自拍屏幕补光，就算再暗，美丽不夜。
      分屏多任务全面升级，视频或游戏时来微信只需轻轻一点，立刻分屏回复消息，生活工作两不误。更加入主动分屏，在你看视频、电子书甚至玩游戏等情况下，只需要三指下滑，即可分屏主动开启微信、QQ等即时通讯应用。`
@@ -43,7 +43,7 @@ const data = [
  realName : 'Xpaly3S',
  stageName: 'Xpaly3S',
  birth    : '￥2298',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone5.png',
  works    : '700000',
  summary  : `X7&X7Plus搭载第七代A72架构CPU高通骁龙8976，八核1.8Ghz。性能强劲。配合4G超大运存和强大的Adreno510 GPU，带来更出色的流畅操作和游戏视频体验。
      分屏多任务全面升级，视频或游戏时来微信只需轻轻一点，立刻分屏回复消息，生活工作两不误。更加入主动分屏，在你看视频、电子书甚至玩游戏等情况下，只需要三指下滑，即可分屏主动开启微信、QQ等即时通讯应用。`
@@ -52,7 +52,7 @@ const data = [
  realName : 'Y9星空灰版',
  stageName: 'Y9星空灰版',
  birth    : '￥3799',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone6.png',
  works    : '300000',
  summary  : `分屏多任务全面升级，视频或游戏时来微信只需轻轻一点，立刻分屏回复消息，生活工作两不误。更加入主动分屏，在你看视频、电子书甚至玩游戏等情况下，只需要三指下滑，即可分屏主动开启微信、QQ等即时通讯应用。`
  },
@@ -60,7 +60,7 @@ const data = [
  realName : 'X7Plus',
  stageName: 'X7Plus',
  birth    : '￥1799',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone7.png',
  works    : '500000',
  summary  : `后置1300W高清摄像头，拍照同时合成4幅画面，5000W像素画质，更多画面细节呈现，让你的风景更清晰。
      分屏多任务全面升级，视频或游戏时来微信只需轻轻一点，立刻分屏回复消息，生活工作两不误。更加入主动分屏，在你看视频、电子书甚至玩游戏等情况下，只需要三指下滑，即可分屏主动开启微信、QQ等即时通讯应用。`
@@ -69,7 +69,7 @@ const data = [
  realName : 'Y51电信高配版',
  stageName: 'Y51电信高配版',
  birth    : '￥1299',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone8.png',
  works    : '500000',
  summary  : `3GB运存搭配，高速应对多任务处理，带来更出色的流畅操作；同时高通MSM8937八核64位
 处理器，强大的计算和图形处理能力，做到持续流畅，告别卡顿。32G大内存，支持128GB内存
@@ -80,7 +80,7 @@ const data = [
  realName : 'Xpaly3S',
  stageName: 'Xpaly3S',
  birth    : '￥4299',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone9.png',
  works    : '900000',
  summary  : `X7&X7Plus搭载第七代A72架构CPU高通骁龙8976，八核1.8Ghz。性能强劲。配合4G超大运存和强大的Adreno510 GPU，带来更出色的流畅操作和游戏视频体验。
      分屏多任务全面升级，视频或游戏时来微信只需轻轻一点，立刻分屏回复消息，生活工作两不误。更加入主动分屏，在你看视频、电子书甚至玩游戏等情况下，只需要三指下滑，即可分屏主动开启微信、QQ等即时通讯应用。`
@@ -89,7 +89,7 @@ const data = [
  realName : 'Y55',
  stageName: 'Y55',
  birth    : '￥1099',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone10.png',
  works    : '5000',
  summary  : `3GB运存搭配，高速应对多任务处理，带来更出色的流畅操作；同时高通MSM8937八核64位
 处理器，强大的计算和图形处理能力，做到持续流畅，告别卡顿。32G大内存，支持128GB内存
@@ -100,7 +100,7 @@ const data = [
  realName : 'Y51移动定制版',
  stageName: 'Y51移动定制版',
  birth    : '￥1379',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone1.png',
  works    : '500000',
  summary  : `5.5英寸高清大屏，色彩饱和，颜色鲜艳，专属个人的掌上高清影院享受。
 细腻精致的圆润背部触感，7.5 mm的超薄厚度和微弧过渡机身，简约设计，爱不释手。
@@ -110,7 +110,7 @@ const data = [
  realName : 'X9星空灰版',
  stageName: 'X9星空灰版',
  birth    : '￥2259',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone2.png',
  works    : '100000',
  summary  : `X7&X7Plus搭载第七代A72架构CPU高通骁龙8976，八核1.8Ghz。性能强劲。配合4G超大运存和强大的Adreno510 GPU，带来更出色的流畅操作和游戏视频体验。
      分屏多任务全面升级，视频或游戏时来微信只需轻轻一点，立刻分屏回复消息，生活工作两不误。更加入主动分屏，在你看视频、电子书甚至玩游戏等情况下，只需要三指下滑，即可分屏主动开启微信、QQ等即时通讯应用。`
@@ -119,7 +119,7 @@ const data = [
  realName : 'Y67',
  stageName: 'Y67',
  birth    : '￥2267',
- poster   : 'http://h.hiphotos.baidu.com/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=b192ca2bd8b44aed4d43b6b6d275ec64/279759ee3d6d55fb8571bf476f224f4a20a4dd18.jpg',
+ poster   : './img/phone3.png',
  works    : '200000',
  summary  : `5.5英寸高清大屏，色彩饱和，颜色鲜艳，专属个人的掌上高清影院享受。
 细腻精致的圆润背部触感，7.5 mm的超薄厚度和微弧过渡机身，简约设计，爱不释手。

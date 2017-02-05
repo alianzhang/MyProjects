@@ -34,7 +34,7 @@ h2 strong{
 #content{
     padding-top: 80px;
     width: 100%;
-    height: 2028px;
+    height: 2080px;
     background-color: #fafafa;
     z-index: 5;
     position: relative;
@@ -135,7 +135,7 @@ h2 strong{
 }
 #list-show .list-show-right{
     height: 665px;
-    width: 385px;
+    width: 384px;
     float: right;
     position: relative;
     overflow: hidden;
@@ -158,7 +158,7 @@ h2 strong{
     overflow: hidden;
     position: relative;
     width: 1099px;
-    height: 1053px;
+    height: 1055px;
     margin: 0 auto;
     border: 1px solid #eee;
     border-bottom: 0px;
@@ -217,84 +217,4 @@ h2 strong{
 }
 #all-list ul li a:hover i{
     border: 5px solid #f2f9fd;
-}
-#nav-number{
-    padding-top: 40px;
-    width: 1100px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-}
-#nav-number ul{
-    display: inline-block;
-    width: 315px;
-    height: 31px;
-    vertical-align: middle;
-    /*padding-top: 8px;*/
-    /*margin: 0 auto;*/
-}
-#nav-number ul li{
-    float: left;
-    height: 31px;
-    width: 31px;
-}
-#nav-number ul li a{
-    display: block;
-    height: 31px;
-     width: 31px;
-    line-height: 31px ;
-    text-align: center;
-    font-size: 18px;
-    color: #333;
-    /*font-family: 微软雅黑;*/
-}
-#nav-number ul li a:hover{
-    color: #008cd6;
-}
-
-#nav-number ul .next-page{
-    margin-left: 5px;
-    background: url(../img/vivo_l_pages-ico.png) -32px 0;
-}
-#nav-number ul .next-page:hover{
-    background: url(../img/vivo_l_pages-ico.png) -32px -32px;
-}
-#nav-number .GO{
-    padding-left: 20px;
-    display: inline-block;
-    /*font-family: 微软雅黑;*/
-    vertical-align: middle;
-    text-align: center;
-}
-#nav-number .GO input{
-    width: 30px;
-    height: 36px;
-    padding: 0 5px;
-    color: #666;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 36px;
-    font-size: 18px;
-    position: relative;
-    background-color: #f5f5f5;
-    box-shadow: 0 0 5px rgba(0,140,214,0),0 1px 2px rgba(0,0,0,.1) inset;
-}
-#nav-number .GO span{
-    vertical-align: middle;
-    padding: 0 5px;
-    font-size: 20px;
-    text-align: center;
-    /*margin: 0 5px;*/
-}
-#nav-number .GO a{
-    font-family: 微软雅黑;
-    display: inline-block;
-    height: 31px;
-    width: 31px;
-    font-size: 12px;
-    color: #fff;
-    border-radius:15px ;
-    text-align: center;
-    line-height: 31px;
-    background-color: #008cd6;
 }

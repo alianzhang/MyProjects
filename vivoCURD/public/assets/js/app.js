@@ -1,7 +1,9 @@
+ 
+
 $(function(){
     var totalPage = 10
     var pageSize = 5
-// 获取
+// 获取列表数据
     // 专门获取数据列表的方法
     // @pageSize 每页数据量
     // @pageIndex 第几页
@@ -43,7 +45,7 @@ $(function(){
                     for (var i = 0; i < result.starList.length; i++) {
                         var item = result.starList[i]
                         str += '<tr><td>' + item._id + '</td>' +
-                            '<td>' + item.realName + '</td>' +
+                            '<td>' + '<img src='+'"'+ item.poster+'"' + 'width='+'"'+'100'+'"'+ 'height='+'100>'+'</td>' +
                             '<td>' + item.stageName + '</td>' +
                             '<td>' + item.birth + '</td>' +
                             '<td>' + item.works + '</td>' +
@@ -59,16 +61,14 @@ $(function(){
         })
     }
 
-    
-// 删除
-    // 1.发请求，获取明星的数据列表
-    getstarList(1, pageSize)
+// 1.发请求，获取明星的数据列表
+    getstarList(1, pageSize)    
+// 删除  
     // 2.要删除数据
     // 注册删除按钮点击事件,(事件委托!)
     $(document).on('click', '.del', function(e) {
         // 询问一下， 是否真的删除
-        if (!confirm('您是否真的删除?')) {
-            return
+        if (!confirm('您是否真的删除?'))                                                              return
         }
         // 获取_id
         var _id = $(this).attr('_id')
@@ -122,7 +122,6 @@ $(function(){
 
                 }
 
-
                 // console.log(result.star)
 
             }
@@ -158,22 +157,26 @@ $(function(){
     $('#upload').on('click',function(e){
         // FormData是H5中的新对象，可以用纯js上传文件，
         // 模拟了表单提交，实现文件的异步上传，因为form表单的提交默认是同步的
-        var fordata = new FormData()
+        var fordata = new FormData()//new一个FormData对象相当于拿到了一个form表单
         // 获取上传图片的input对象
         var oFileInput =  $('#fileinput')[0]
         console.log(oFileInput)
-        // 这个files属性就是选择的文件，是一个数组
+        // 这个files属性就是用户选择的文件，是一个数组
         // oFileInput.files  []
+        // fordata.append（key,value）
         fordata.append('username', oFileInput.files[0])
         $.ajax({
             url:'/saveimg',
             type:'post',
             data:fordata,  // jq默认会把我们上传的数据转换成这种形式：a=b&c=d
             processData:false,   // @1告诉jquery不要处理我们data的数据
-            contentType:false, //@2告诉jquery不要设置Content-type请求头 
+            contentType:false, //@2告诉jquery不要设置Content-type请求头,请求头表明传输的数据类型
             success:function(result){
+                // $('#poster').src = obj.filename
                 console.log(result)
             }
         })
     })
+
+
 })

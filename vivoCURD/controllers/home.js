@@ -107,7 +107,7 @@ router.post('/saveimg', (req, res) => {
       form.uploadDir = config.uploadDir // 配置上传文件的路径
       form.keepExtensions = true // 保持扩展名
       form.maxFieldsSize = 20 * 1024 * 1024 // 配置上传文件的大小
-      form.parse(req, (err, fields, files) => {
+      form.parse(req, function(err, fields, files){
         if (err) {
           throw err
         }
@@ -115,10 +115,12 @@ router.post('/saveimg', (req, res) => {
         //     res.send({status:'err','msg':'没有文件'})
         //     return
         // }
+        console.log(path.basename(files.name.path))
         const filename = path.basename(files.name.path)
+        
         // 回调函数中的 fields 就是表单中的普通字段
         // files 就是文件信息
-        res.send({status:'ok',msg:'上传成功!',filename:path.join('/uploads',filename)})
+        res.send({status:'ok',msg:'上传成功!',filename:'uploads/'+ filename})
   })
 })
 
