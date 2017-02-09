@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>产品管理</title>
+		<base href="_self" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	</head>
+	<!--开始-->
+
+	<body class="vivomain-page">
+		<!--视图部分开始-->
+		<div id="vivo-wrap">
+			<!--公共头部通栏开始-->
+			<div id="vivo-head-wrap">
+				<!--公共头部开始-->
+				<div class="vivo-head c1">
+					<a class="vivo-h-logo" href="javascript:" onclick=window.location.href="index.html">vivo</a>
+					<ul class="vivo-h-nav">
+						<li class="nav-gb">
+							<a href="javascript:" onclick=window.location.href="index.html">产品管理</a>
+						</li>
+						<li class="nav-gb" id="product">
+							<a href="javascript:" onclick=window.location.href="product.html">产品展示</a>
+						</li>
+						<li class="nav-gb">
+							<a href="#">商城</a>
+						</li>
+						<li class="nav-gb">
+							<a href="#">体验中心</a>
+						</li>
+						<li class="nav-gb">
+							<a href="#">Funtouch OS</a>
+						</li>
+						<li class="nav-gb">
+							<a href="#">社区</a>
+						</li>
+						<li class="nav-gb">
+							<a href="#">服务</a>
+						</li>
+					</ul>
+
+					<!--导航右边图标-->
+					<div class="nav-tool">
+						<a id="service" class="nav-t-kefu" href="#">
+							<b class="v-gb-ico"></b>
+
+						</a><em class="nav-t-kefu-pop">小v在线客服</em>
+
+						<a href="" class="nav-t-search" id="nav_t_search">
+							<b class="v-gb-ico"></b>
+						</a>
+						<a href="#" class="nav-t-user">
+							<b class="v-gb-ico"></b>
+						</a>
+					</div>
+				</div>
+				<!--公共头部结束-->
+			</div>
+			
+			<!--公共头部通栏结束-->
+
+			<!--搜索遮罩层部分-->
+			<div class="v_h_search v_h_searchq">
+				<div class="search-box" id="searchBox">
+					<div class="vh-sear-nav">
+						<div class="nav-box">
+							<a href="javascript:" class="vh-sear-logong"></a>
+							<ul class="c1">
+								<li class="input">
+									<input type="text" name="" id="iptTxt" placeholder="如：X6&x6Plus" autocomplete="off"/>
+								</li>
+								<li class="sear-tool">
+									<span class="search v-gb-ico"></span>
+									<span class="close v-gb-ico" id="searClose"></span>
+								</li>
+							</ul>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+			</div>
+
+			<!--顶部广告和版心部分开始-->
+			<div id="vivo-contain">
+				<div class="vc-main-events vc-ev-pic">
+					<ul class="c1 clearfix">
+						<li>
+							<a href="javascript:">
+								<div class="figure">
+									<img src="img/vivo-activity1.jpg" width="340" height="200" alt="撷一缕墨香 书一纸情怀" />
+									<h3>撷一缕墨香 书一纸情怀</h3>
+									<p>第六届山东线下V粉会招募</p>
+								</div>
+
+							</a>
+							
+						</li>
+						<li>
+							<a href="javascript:">
+								<div class="figure">
+									<img src="img/vivo-activity2.jpg" width="340" height="200" alt="vivo X7曜石黑新品上市" />
+									<h3>vivo X7曜石黑新品上市</h3>
+									<p>曜自拍赢手机</p>
+								</div>
+
+							</a>
+							
+						</li>
+						<li>
+							<a href="javascript:">
+								<div class="figure">
+									<img src="img/vivo-activity3.jpg" width="340" height="200" alt="vivo官网全新上线" />
+									<h3>vivo官网全新上线</h3>
+									<p>送祝福赢大礼 </p>
+								</div>
+
+							</a>
+							
+						</li>
+						<li>
+							<a href="javascript:">
+								<div class="figure">
+									<img src="img/vivo-activity4.jpg" width="340" height="200" alt="大屏自拍旗舰" />
+									<h3>大屏自拍旗舰</h3>
+									<p>X7Plus火爆热销</p>
+								</div>
+
+							</a>
+							
+						</li>
+					</ul>
+
+					
+					<!-- 商品列表 -->
+    			<ul class="nav nav-pills" role="tablist">
+        			<li role="presentation" class="active"><a href="">产品列表</a></li>
+        			<li role="presentation"><a href="/adddata.html">添加数据</a></li>
+        			<li role="presentation"><a href="#">其他</a></li>
+    			</ul>
+    			<div>
+        			<table class="table table-striped table-bordered table-hover">
+            			<thead>
+               				<tr class="product-list">
+                		    <th>id</th>
+                		    <th>图片</th>
+                		    <th>型号</th>
+                		    <th>价格</th>
+                		    <th>库存</th>
+                		    <th>删除</th>
+                		    <th>修改</th>
+               				</tr>
+            			</thead>
+            			<tbody class="product-list">
+            			</tbody>
+        			</table>
+
+        			<!-- 分页 -->
+        		
+
+        		<nav>
+            		<nav>
+            		    <ul class="pagination">
+            		        <li class="disabled"><a href="#">&laquo;</a></li>
+            		        <li class="active"><a href="#">1</a></li>
+            		        <li><a href="#">2</a></li>
+            		        <li><a href="#">3</a></li>
+            		        <li><a href="#">4</a></li>
+            		        <li><a href="#">5</a></li>
+            		        <li><a href="#">&raquo;</a></li>
+            		    </ul>
+            		</nav>
+        		</nav>
+
+				</div>
+            		
+    			</div>
+			
+			</div>
+
+		</div>
+		
+
+		<!-- 模态框开始 -->
+        <!-- 在模态框修改数据 -->
+    	<div id="mymodel" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        	<div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <!-- 设置一个隐藏域，获取当前点击数据对象的id -->
+                <input id="_id" type="hidden" >
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon">型号</span>
+                    <input id="stageName" type="text" class="form-control" placeholder="型号">
+                </div>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon">价格</span>
+                    <input id="birth" type="text" class="form-control" placeholder="价格">
+                </div>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon">库存</span>
+                    <input id="works" type="text" class="form-control" placeholder="库存">
+                </div>
+                <img id="poster" alt="" width="200" height="200">
+                <input id="fileinput" type="file" accept="image/png,image/jpg,image/jpeg">
+                <button id="upload" class="btn btn-success">上传</button>
+                <textarea id="summary" class="form-control" rows="5"></textarea>
+          <button id="save" class="btn btn-success">保存</button>
+            </div>
+        	</div>
+    	</div>
+      <!-- 模态框结束 --> 
+
+
+		<!--公共footer开始-->
+		<div id="d" style="background-color: #008cd6; position: relative;visibility: visible;">
+			<div class="vivo-footer" id="v-footer">
+				<div class="vivo-footer-logo">
+					<img src="img/vivo-f-logo-x2.jpg" alt="" />
+				</div>
+				<div class="vivo-footer-share">
+					<a href="javascript:" class="sina-f">
+						<b></b>
+					</a>
+					<a href="javascript:" class="weixin-f" id="weixin-f">
+						<b></b>
+					</a>
+					<a href="javascript:" class="vivo-f">
+						<b></b>
+					</a>
+					<a href="javascript:" class="tieba-f">
+						<b></b>
+					</a>
+					<a href="javascript:" class="buluo-f">
+						<b></b>
+					</a>
+					<a href="javascript:" class="kefu-f">
+						<i></i>
+						<b></b>
+						<u>小V在线客服</u>
+					</a>
+					<div class="weixinma" id="weixinma">
+						<img src="img/vf-weixin-overbox-ico-x2.jpg" alt="" />
+						<i></i>
+					</div>
+				</div>
+				<div class="vivo-footer-sitelinks">
+					<a href="javascript:">新闻中心</a>
+					<a href="javascript:">vivo招聘 </a>
+					<a href="javascript:">vivo摄影 </a>
+					<a href="javascript:">采购平台 </a>
+					<a href="javascript:">开发者平台</a>
+					<a href="javascript:">手机寻回</a>
+					<a href="javascript:">网站地图</a>
+					<a href="javascript:">手机真伪查询</a>
+					<a href="javascript:">免责声明</a>
+					<a href="javascript:">English<b></b></a>
+				</div>
+				<div class="vivo-footer-copyright">
+					<p>COPYRIGHT © 1996-2016 <br>ALL RIGHTS RESERVED.
+						<a href="javascript:">粤ICP备05100288号</a>
+					</p>
+				</div>
+			</div>
+			<div id="vivo-gotop">
+				<div class="v-gotop">
+					<a class="v-gb-ico" href="javascript:"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!--公共footer结束-->
+		
+	</body>
+	<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/animate.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//设置产品显示隐藏
+				
+				$("#product").mouseenter(function(){
+					$("#series").stop().animate({
+						"opacity":"1",
+					},800)
+					$("#series").addClass("show");
+				})
+				$("#product").mouseleave(function(){
+					$("#series").stop().animate({
+						"opacity":"0",
+					},800,function(){
+						$("#series").removeClass("show");
+					})
+				})
+				
+				
+				$("#series").mouseenter(function(){
+					$("#series").stop().animate({
+						"opacity":"1",
+					},800)
+					$("#series").addClass("show");
+				})
+				$("#series").mouseleave(function(){
+					$("#series").stop().animate({
+						"opacity":"0",
+					},800,function(){
+						$("#series").removeClass("show");
+					})
+				})
+				
+				//回到顶部
+					$("#vivo-gotop").click(function(){
+						$('body,html').animate({scrollTop:0},1000);  
+			                return false; 
+					})
+					
+				
+			})
+		</script>	
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="assets/js/app.js"></script>
+	<script src="js/footer.js"></script>
+	<!-- <script src="node_modules/jquery/dist/jquery.js"></script> -->
+	<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+	<!-- 引入分页按钮插件 -->
+	<script src="node_modules/twbs-pagination/jquery.twbsPagination.js"></script>
+	
+</html>
